@@ -1,12 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
-    <view id="icon-ruler-view" viewBox="0 0 32 10" />
-    <view id="icon-plus-minus-view" viewBox="0 11 10 10" />
-    <view id="icon-caret-down-view" viewBox="0 21 10 10" />
+<!-- ruler -->
+    <use x="0" y="0" width="32" height="10" href="#icon-ruler"></use>
+    <view viewBox="0 0 32 10" id="icon-ruler-view"/>
+<!-- plus-minus -->
+    <use x="0" y="15" width="10" height="10"  href="#icon-plus-minus"></use>
+    <view viewBox="0 15 10 10" id="icon-plus-minus-view"/>
+<!-- caret-down -->
+    <use x="0" y="30" width="10" height="10" href="#icon-caret-down"></use>
+    <view viewBox="0 30 10 10" id="icon-caret-down-view"  />
+<!-- app-window -->
+    <use x="0" y="45" width="10" height="10" href="#icon-app-window"></use>
+    <view viewBox="0 45 10 10" id="icon-app-window-view"  />
 
-    <use xlink:href="#icon-ruler" width="32" height="10" x="0" y="0"></use>
-    <use xlink:href="#icon-plus-minus" width="10" height="10" x="0" y="11"></use>
-    <use xlink:href="#icon-caret-down" width="10" height="10" x="0" y="21"></use>
+    <symbol id="icon-app-window" viewBox="0 0 10 10" fill="#808080">
+        <path d="M8.438 1.563H1.561a.625.625 0 0 0-.625.625v5.624a.625.625 0 0 0 .625.625h6.875a.625.625 0 0 0 .626-.624V2.188a.625.625 0 0 0-.626-.625zm0 6.25H1.561V2.188h6.875zM3.125 3.28a.469.469 0 1 1-.937 0 .469.469 0 0 1 .937 0zm1.563 0a.469.469 0 1 1-.938 0 .469.469 0 0 1 .938 0z"/>
+    </symbol>
 
     <symbol id="icon-caret-down" viewBox="0 0 10 10" fill="#808080">
         <path d="M9.38 3.212 5.29 7.378a.408.408 0 0 1-.447.09.409.409 0 0 1-.132-.09L.62 3.212a.42.42 0 0 1 0-.59.406.406 0 0 1 .579 0L5 6.494l3.801-3.872a.409.409 0 0 1 .446-.09.409.409 0 0 1 .222.225.424.424 0 0 1-.089.455z"/>
